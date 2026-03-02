@@ -4,6 +4,9 @@ Python implementations and demonstrations of selected exercises and algorithms f
 
 This repository implements various optimization algorithms and solves exercises from *Numerical Optimization* (2nd edition) using Python. The focus is on understanding core numerical optimization techniques—such as line search methods, Newton's method, quasi-Newton (e.g., BFGS), trust-region approaches, conjugate gradients, and constrained optimization—by coding them from scratch where appropriate, while also comparing results against Python's built-in tools like `scipy.optimize`.
 
+## Attribution / AI Assistance
+Some code implementations and educational examples in this repository were generated or significantly refined with the help of Grok (built by xAI).
+
 ## Attribution / Bibliography
 
 This project draws inspiration from exercises, algorithms, and concepts in the following source on **Numerical Optimization**. All code implementations are original (or adapted for educational clarity) and do not reproduce protected material from the book.
