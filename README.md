@@ -1,7 +1,5 @@
 # Nocedal-Wright-optimization-exercises-in-Python
 
-*(or choose your own repo name, e.g., Nocedal-Wright-Exercises-Python)*
-
 Python implementations and demonstrations of selected exercises and algorithms from the classic textbook on **Numerical Optimization**.
 
 This repository implements various optimization algorithms and solves exercises from *Numerical Optimization* (2nd edition) using Python. The focus is on understanding core numerical optimization techniques—such as line search methods, Newton's method, quasi-Newton (e.g., BFGS), trust-region approaches, conjugate gradients, and constrained optimization—by coding them from scratch where appropriate, while also comparing results against Python's built-in tools like `scipy.optimize`.
