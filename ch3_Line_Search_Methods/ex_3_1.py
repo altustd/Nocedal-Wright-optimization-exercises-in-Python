@@ -1,3 +1,15 @@
+# Troy Altus 
+# 3/4/2026    
+
+# Nocedal and Wright, "Numerical Optimization", 2nd edition, 2006.
+# Example 13.1: Revised Simplex Method for Linear Programming 
+
+# This code implements the revised simplex method to solve the linear programming problem defined in Example 13.1 of Nocedal & Wright's "Numerical Optimization". The problem is to minimize a linear objective function subject to linear equality constraints and non-negativity constraints on the variables. The code iteratively updates the basis, computes the basic solution, calculates the Lagrange multipliers, and determines the reduced costs to find the optimal solution. The expected optimal solution is provided for verification.   
+# The code is structured to follow the steps of the revised simplex method, including basis updates, reduced cost calculations, and the ratio test for determining the entering variable. The implementation is educational and is designed to illustrate the mechanics of the simplex method as presented in the textbook.             
+# The Rosenbrock function is a common test problem for optimization algorithms, defined as:
+# f(x) = 100 * (x[1] - x[0]**2)**2 + (1 - x[0])**2
+# The code includes a backtracking line search to find an appropriate step length for each iteration.   
+
 import numpy as np
 
 def rosenbrock(x):
